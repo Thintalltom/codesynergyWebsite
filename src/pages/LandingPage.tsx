@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Hero } from '../components/Hero';
 import { CoursesSection } from '../components/CoursesSection';
 import { ComingSoon } from '../components/ComingSoon';
