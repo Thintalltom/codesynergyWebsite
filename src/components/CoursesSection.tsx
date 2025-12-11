@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Card } from './ui/Card';
 import { Badge } from './ui/Badge';
 import { Code2, Terminal, Palette, Clock, CheckCircle2 } from 'lucide-react';
+
 const courses = [{
   id: 'react',
   title: 'React Frontend',

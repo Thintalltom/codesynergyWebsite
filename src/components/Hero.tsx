@@ -2,8 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from './ui/Button';
 import { ArrowRight, Code2, Terminal, Palette } from 'lucide-react';
+import { SEO } from './SEO';
 export function Hero() {
-  return <section className="relative overflow-hidden bg-stone-50 pt-20 pb-32 lg:pt-32 lg:pb-40">
+  return <>
+  <SEO />
+  <section className="relative overflow-hidden bg-stone-50 pt-20 pb-32 lg:pt-32 lg:pb-40">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 h-[500px] w-[500px] rounded-full bg-orange-100/50 blur-3xl" />
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 h-[500px] w-[500px] rounded-full bg-teal-100/50 blur-3xl" />
@@ -93,5 +96,6 @@ export function Hero() {
           </motion.div>
         </div>
       </div>
-    </section>;
+    </section>
+     </>
 }

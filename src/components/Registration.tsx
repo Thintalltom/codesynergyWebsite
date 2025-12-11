@@ -17,29 +17,32 @@ export function Registration() {
     
     try {
       const form = e.target as HTMLFormElement;
+      const formData = new FormData(form);
+      
       const response = await fetch('https://email-sender-98we.vercel.app/api/codesynergy-notify', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          fullName: form.name?.valueOf,
-          Email: form.email?.value,
-          Number: form.phone?.value,
-          Course: form.course?.value
+          fullName: formData.get('name'),
+          Email: formData.get('email'),
+          Number: formData.get('phone'),
+          Course: formData.get('course')
         })
       });
-       await fetch('https://email-sender-98we.vercel.app/api/codesynergy-send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-
-          email: form.email?.value,
-
-        })
-      });
+      
+      if(response.ok){
+        await fetch('https://email-sender-98we.vercel.app/api/codesynergy-send', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            email: formData.get('email')
+          })
+        });
+      }
     
       
       if (!response.ok) {
