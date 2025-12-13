@@ -11,7 +11,7 @@ const courses = [{
   color: 'text-blue-500',
   bg: 'bg-blue-50',
   description: "Build modern websites & apps with the world's most popular library.",
-  duration: '4 months',
+  duration: '6 months',
   level: 'Beginner Friendly',
   features: ['HTML, CSS, JavaScript', 'React Components & Hooks', 'API Integration', 'Portfolio Projects']
 }, {

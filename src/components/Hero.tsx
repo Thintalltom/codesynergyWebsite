@@ -53,7 +53,7 @@ export function Hero() {
           duration: 0.5,
           delay: 0.2
         }} className="mx-auto max-w-2xl text-lg text-stone-600 mb-10 md:text-xl">
-        Enroll your child in our weekend online coding classes made specially for young beginners in Nigeria. Interactive, safe, and engaging.
+        Enroll your child in our weekend online coding classes made specially for young beginners. Interactive, safe, and engaging.
           </motion.p>
 
           <motion.div initial={{
