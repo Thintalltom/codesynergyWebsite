@@ -1,6 +1,6 @@
-import React, { useState, Component } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronRight } from 'lucide-react';
+
 const curricula = {
   react: [{
     week: 1,

@@ -5,7 +5,7 @@ import { Check } from 'lucide-react';
 const plans = [{
   name: 'Frontend Development',
   price: '₦20,000',
-  duration: '4 Months',
+  duration: '6  Months',
   features: ['HTML, CSS, JavaScript', 'React & Tailwind', 'API Integration', 'Certificate of Completion'],
   color: 'border-blue-200',
   btnVariant: 'outline' as const

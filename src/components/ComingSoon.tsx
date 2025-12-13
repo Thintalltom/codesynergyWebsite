@@ -1,9 +1,9 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Sparkles } from 'lucide-react';
 const upcoming = ['Product Management', 'Cybersecurity', 'Graphic Design', 'Data Analytics'];
 export function ComingSoon() {
-  return <section className="py-16 bg-stone-900 text-white overflow-hidden relative">
+  return <section className="py-16 px-10 bg-stone-900 text-white overflow-hidden relative">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
 
       <div className="container mx-auto px-4 relative z-10">

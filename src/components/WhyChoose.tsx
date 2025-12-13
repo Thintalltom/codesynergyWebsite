@@ -1,10 +1,10 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Calendar, Video, Briefcase, Users, Wallet, Award, HeartHandshake } from 'lucide-react';
 const benefits = [{
   icon: Calendar,
   title: 'Weekend Classes',
-  description: 'Perfect for students and workers. Learn without quitting your job.'
+  description: 'Ideal for young learners. Kids can build tech skills on weekends without missing school.'
 }, {
   icon: Video,
   title: 'Live + Recorded',
@@ -24,14 +24,14 @@ const benefits = [{
 }, {
   icon: Award,
   title: 'Certification',
-  description: 'Earn a certificate to showcase your achievement on LinkedIn.'
+  description: 'Kids earn a certificate they can proudly add to their portfolio or school achievements.'
 }, {
   icon: HeartHandshake,
   title: 'Beginner Focused',
-  description: 'We start from zero. No prior coding experience required.'
+  description: 'Perfect for beginners. We start at the very beginning and make learning easy.'
 }];
 export function WhyChoose() {
-  return <section className="py-20 bg-orange-50">
+  return <section className="py-20 px-10 bg-orange-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-stone-900 sm:text-4xl mb-4">

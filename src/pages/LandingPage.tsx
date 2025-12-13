@@ -9,21 +9,17 @@ import { Pricing } from '../components/Pricing';
 import { Registration } from '../components/Registration';
 import { FAQ } from '../components/FAQ';
 import { Contact } from '../components/Contact';
+import Logo from '../assets/codesynergy.png';
 export function LandingPage() {
   return <>
       <SEO />
-      <main className="min-h-screen w-full bg-white font-sans text-stone-900 selection:bg-orange-100 selection:text-orange-900">
+      <main className="min-h-screen w-full  bg-white font-sans text-stone-900 selection:bg-orange-100 selection:text-orange-900">
         {/* Navigation Bar */}
         <header>
           <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-stone-100">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="h-8 w-8 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-white">
-              C
-            </div>
-            <span className="text-xl font-bold tracking-tight">
-              CodeSynergy
-            </span>
+            <img src={Logo} alt="CodeSynergy Logo" className="h-36 w-36 object-contain" />
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
             <a href="#courses" onClick={() => document.getElementById('courses')?.scrollIntoView({

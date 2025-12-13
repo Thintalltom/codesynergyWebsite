@@ -1,17 +1,17 @@
-import React from 'react';
+
 import { Mail, MessageCircle, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { Button } from './ui/Button';
+import Logo from '../assets/Brown-logo-remove.png';
 export function Contact() {
-  return <footer className="bg-stone-900 text-stone-300 py-16 flex justify-between">
+  return <footer className="bg-stone-900 px-10 text-stone-300 py-16 flex justify-between">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="h-8 w-8 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-white">
-                C
-              </div>
-              <span className="text-xl font-bold text-white">CodeSynergy</span>
+            <div className="">
+               <div className="">
+                        <img src={Logo} alt="CodeSynergy Logo" className=" w-36 object-contain" />
+                      </div>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Empowering the next generation of Nigerian tech talent. Practical
@@ -70,9 +70,9 @@ export function Contact() {
                 Chat on WhatsApp
               </Button>
 
-              <a href="mailto:contact@codesynergy.ng" className="flex items-center gap-3 text-sm hover:text-white transition-colors p-3 rounded-lg border border-stone-800 hover:border-stone-700">
+              <a href="mailto:codesynergy01@gmail.com" className="flex items-center gap-3 text-sm hover:text-white transition-colors p-3 rounded-lg border border-stone-800 hover:border-stone-700">
                 <Mail className="h-5 w-5 text-stone-500" />
-                contact@codesynergy.ng
+                codesynergy01@gmail.com
               </a>
             </div>
           </div>

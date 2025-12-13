@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Button } from './ui/Button';
 import { ArrowRight, Code2, Terminal, Palette } from 'lucide-react';
@@ -23,7 +23,7 @@ export function Hero() {
           duration: 0.5
         }}>
             <span className="inline-block rounded-full bg-orange-100 px-4 py-1.5 text-sm font-semibold text-orange-700 mb-6">
-              🇳🇬 Tech Education for Nigeria
+             🇳🇬 Coding Made Easy for Young Students
             </span>
           </motion.div>
 
@@ -53,9 +53,7 @@ export function Hero() {
           duration: 0.5,
           delay: 0.2
         }} className="mx-auto max-w-2xl text-lg text-stone-600 mb-10 md:text-xl">
-            Join our online weekend classes designed for students, beginners,
-            and career switchers in Nigeria. Practical, hands-on, and
-            affordable.
+        Enroll your child in our weekend online coding classes made specially for young beginners in Nigeria. Interactive, safe, and engaging.
           </motion.p>
 
           <motion.div initial={{
