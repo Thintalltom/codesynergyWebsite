@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import ChildrenImage from '../assets/ChildrenImage.png';
 export function About() {
-  return <section className="py-20 bg-white px-10">
+  return <section className="py-20 sm:px-0 md:px-10 bg-white px-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <motion.div initial={{

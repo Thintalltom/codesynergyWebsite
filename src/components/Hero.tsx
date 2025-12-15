@@ -23,7 +23,7 @@ export function Hero() {
           duration: 0.5
         }}>
             <span className="inline-block rounded-full bg-orange-100 px-4 py-1.5 text-sm font-semibold text-orange-700 mb-6">
-             🇳🇬 Coding Made Easy for Young Students
+             Coding Made Easy for Young Students
             </span>
           </motion.div>
 

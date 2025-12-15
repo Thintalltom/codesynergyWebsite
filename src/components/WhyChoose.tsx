@@ -31,7 +31,7 @@ const benefits = [{
   description: 'Perfect for beginners. We start at the very beginning and make learning easy.'
 }];
 export function WhyChoose() {
-  return <section className="py-20 px-10 bg-orange-50">
+  return <section className="py-20 sm:px-0 md:px-10 bg-orange-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-stone-900 sm:text-4xl mb-4">

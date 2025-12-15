@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
 {
   question: 'Is there an age restriction for joining the classes?',
-  answer: 'Yes, we welcome students from age 9 and above. We target young kids to expose them to technology early and help liberate Nigerian kids through tech education.'
+  answer: 'Yes, we welcome students from age 10 and above. We target young kids to expose them to technology early and help liberate Nigerian kids through tech education.'
 },
   {
   question: 'Are classes online?',

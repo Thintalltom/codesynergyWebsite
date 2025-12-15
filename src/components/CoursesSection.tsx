@@ -36,7 +36,7 @@ const courses = [{
   features: ['Design Principles', 'Figma Mastery', 'Wireframing', 'Interactive Prototyping']
 }];
 export function CoursesSection() {
-  return <section id="courses" className="py-20 px-10 bg-white">
+  return <section id="courses" className="py-20 sm:px-0 md:px-10 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-stone-900 sm:text-4xl mb-4">
